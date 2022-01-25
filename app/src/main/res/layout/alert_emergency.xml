@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edt_reason"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/loginbutton"
+        android:backgroundTint="@color/colorWhite"
+        android:fontFamily="@font/gilroy_medium"
+        android:hint="Enter reason "
+        android:inputType="text"
+        android:paddingStart="@dimen/_10sdp"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkBlue" />
+
+</LinearLayout>

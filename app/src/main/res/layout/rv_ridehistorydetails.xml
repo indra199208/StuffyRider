@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvRidename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:fontFamily="@font/gilroy_regular"
+            android:text="Ride Name"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_8sdp" />
+
+        <TextView
+            android:id="@+id/tvStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAlignment="center"
+            android:fontFamily="@font/gilroy_regular"
+            android:text="Start"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_8sdp" />
+
+        <TextView
+            android:id="@+id/tvEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAlignment="center"
+
+            android:fontFamily="@font/gilroy_regular"
+            android:text="End"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_8sdp" />
+
+        <TextView
+            android:id="@+id/tvTotaltime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAlignment="center"
+            android:fontFamily="@font/gilroy_regular"
+            android:text="Time"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_8sdp" />
+
+        <TextView
+            android:id="@+id/tvBaseprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:textAlignment="center"
+            android:layout_marginStart="@dimen/_7sdp"
+            android:fontFamily="@font/gilroy_regular"
+            android:text="Price"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_8sdp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

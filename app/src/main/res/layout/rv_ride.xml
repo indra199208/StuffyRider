@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_backgroundBg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/border_shape">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/rideImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@drawable/image2" />
+
+
+            <TextView
+                android:id="@+id/tvRidename"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_weight="0.2"
+                android:fontFamily="@font/bubblegumsans_regular"
+                android:text="Bandit"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <LinearLayout
+                android:id="@+id/btnRent"
+                android:layout_width="@dimen/_75sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/loginbutton"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:textSize="@dimen/_10sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/gilroy_medium"
+                    android:gravity="center"
+                    android:text="Rent Me"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorDarkBlue" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btnRentselected"
+                android:layout_width="@dimen/_75sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/loginbutton5"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/gilroy_medium"
+                    android:text="Selected"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_10sdp" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_7sdp"
+                    android:src="@drawable/ic_check"
+                    app:tint="@color/colorWhite" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btnRentnotavailable"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:background="@drawable/loginbutton"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/gilroy_medium"
+                    android:gravity="center"
+                    android:text="Not Available"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorDarkBlue"
+                    android:textSize="@dimen/_8sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/notAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/border_shape17"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+
+</FrameLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customer_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_300sdp"
+    android:background="@drawable/border_shape6"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    app:behavior_peekHeight="@dimen/_300sdp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer Details"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:fontFamily="@font/gilroy_bold"
+            android:textColor="@color/colorBlack"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etcustomerName"
+            android:layout_width="match_parent"
+            android:background="@drawable/border_shape7"
+            android:layout_height="@dimen/_45sdp"
+            android:paddingStart="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:fontFamily="@font/gilroy_regular"
+            android:textColor="@color/colorDarkBlue"
+            android:hint="Customer Name"
+            android:textColorHint="@color/colorDarkBlue"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:background="@drawable/border_shape7"
+            android:layout_height="@dimen/_45sdp"
+            android:paddingStart="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:fontFamily="@font/gilroy_regular"
+            android:textColor="@color/colorDarkBlue"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:maxLength="12"
+            android:textColorHint="@color/colorDarkBlue"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:background="@drawable/border_shape7"
+            android:layout_height="@dimen/_45sdp"
+            android:paddingStart="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:fontFamily="@font/gilroy_regular"
+            android:textColor="@color/colorDarkBlue"
+            android:hint="Email Address (Optional)"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorDarkBlue"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:background="@drawable/border_shape7"
+            android:layout_height="@dimen/_45sdp"
+            android:paddingStart="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:fontFamily="@font/gilroy_regular"
+            android:textColor="@color/colorDarkBlue"
+            android:hint="Driving Licence  Number (Optional)"
+            android:inputType="text"
+            android:textColorHint="@color/colorDarkBlue"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <LinearLayout
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:gravity="center"
+            android:background="@drawable/loginbutton2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="@color/colorWhite"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/gilroy_bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                app:srcCompat="@drawable/ic_forward"
+                app:tint="@color/colorWhite" />
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/btnSkip"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_marginTop="@dimen/_15sdp"-->
+<!--            android:layout_height="@dimen/_45sdp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginStart="@dimen/_15sdp"-->
+<!--            android:layout_marginEnd="@dimen/_15sdp"-->
+<!--            android:gravity="center"-->
+<!--            android:background="@drawable/loginbutton2">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Skip"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                android:layout_marginStart="@dimen/_15sdp"-->
+<!--                android:textSize="@dimen/_12sdp"-->
+<!--                android:fontFamily="@font/gilroy_bold" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="@dimen/_10sdp"-->
+<!--                app:srcCompat="@drawable/ic_forward"-->
+<!--                app:tint="@color/colorWhite" />-->
+
+<!--        </LinearLayout>-->
+
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

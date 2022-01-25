@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_170sdp"
+    android:padding="@dimen/_15sdp"
+    android:background="#FFA923"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp">
+
+            <ImageView
+                android:id="@+id/ImageProfile"
+                android:layout_width="88dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginEnd="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                app:srcCompat="@drawable/dp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/navuserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intu Metrocenter"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/gilroy_medium"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/navuserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID: IM5236897"
+            android:textAlignment="center"
+            android:fontFamily="@font/gilroy_medium"
+            android:textColor="#FFF"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

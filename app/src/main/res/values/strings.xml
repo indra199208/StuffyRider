@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Stuffy Riders</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="loading">Loading . . .</string>
+
+
+</resources>

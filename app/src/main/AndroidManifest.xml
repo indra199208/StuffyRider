@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ivan.infotechpvt.stuffyrider">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="ivan.infotechpvt.stuffyrider.Bookride"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Ridehistorydetails"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Changepassword"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Ongoingdetails"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Pendingride"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Ongoingride"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Otpforgotpassword"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Forgotpassoword"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Ridehistory"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Startride"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Dashboard"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Customerdetails"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Editprofile"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Login"
+            android:screenOrientation="portrait"/>
+        <activity android:name="ivan.infotechpvt.stuffyrider.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ivan.infotechpvt.stuffyrider.MainActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
